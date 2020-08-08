@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <title>vegetarian type</title>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+  function nightDayHandler(){
+    var target=document.querySelector('body');
+    if(this.value === 'night') {
+      target.sytle.backgroundColor='black';
+      target.sytle.color='white';
+      this.value='day';
+
+      var alist=document.querySelectorAll('a');
+      var i=0;
+      while(i<alist.length){
+        console.log(alist[i]);
+        alert[i].style.coler="powdreblue";
+        i=i+1;
+      }
+    } else {
+      target.sytle.backgroundColor='white';
+      target.sytle.color='black';
+      this.value='night';
+
+      var alist=document.querySelectorAll('a');
+      var i=0;
+      while(i<alist.length){
+        console.log(alist[i]);
+        alert[i].style.coler="powdreblue";
+        i=i+1;
+      }
+    }
+  }
+  </script>
+</head>
+<body data-mode="day">
+  <h1><a href="index2.html">eating</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+    ">
+    <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+      ">
+  <ol>
+    <li><a href="1.html">vegetarian</a></li>
+    <li><a href="2.html">vegetarian type</a></li>
+  </ol>
+  <h2>육식주의란 무엇인가? <h2>
+  <p><a href="https://www.berkeleywellness.com/healthy-eating/food/article/what-type-vegetarian-are-you" target="blank" title="sort specification">Lacto-ovo-vegetarians eat plant-based foods, dairy products, and eggs, and exclude meat, poultry, and fish.
+Lacto-vegetarians eat plant-based foods and dairy products, and exclude meat, poultry, fish, and eggs.
+Ovo-vegetarians eat plant-based foods and eggs, and exclude meat, poultry, fish, and dairy products.
+Pesco-vegetarians eat a vegetarian diet but also include fish.
+Semi-vegetarians may eat dairy products or eggs, as well as a little fish and chicken, and generally exclude meat; also called partial vegetarians.
+Vegans eat plant-based foods only, excluding all foods of animal origin; also called strict vegetarians.</p>
+  <br><br>
+</body>
